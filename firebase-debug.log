@@ -1,0 +1,73 @@
+[debug] [2023-05-10T20:13:22.856Z] ----------------------------------------------------------------------
+[debug] [2023-05-10T20:13:22.897Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2023-05-10T20:13:22.901Z] CLI Version:   12.0.0
+[debug] [2023-05-10T20:13:22.915Z] Platform:      darwin
+[debug] [2023-05-10T20:13:22.916Z] Node Version:  v18.15.0
+[debug] [2023-05-10T20:13:22.923Z] Time:          Wed May 10 2023 21:13:22 GMT+0100 (British Summer Time)
+[debug] [2023-05-10T20:13:22.923Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-05-10T20:13:23.056Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-05-10T20:13:23.057Z] > authorizing via signed-in user (emailwadhwani@gmail.com)
+[debug] [2023-05-10T20:13:23.057Z] [iam] checking project chatgpt-messenger-yt-a58e9 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-05-10T20:13:23.061Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/chatgpt-messenger-yt-a58e9:testIamPermissions [none]
+[debug] [2023-05-10T20:13:23.061Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/chatgpt-messenger-yt-a58e9:testIamPermissions x-goog-quota-user=projects/chatgpt-messenger-yt-a58e9
+[debug] [2023-05-10T20:13:23.061Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/chatgpt-messenger-yt-a58e9:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-05-10T20:13:23.842Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/chatgpt-messenger-yt-a58e9:testIamPermissions 200
+[debug] [2023-05-10T20:13:23.843Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/chatgpt-messenger-yt-a58e9:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-05-10T20:13:23.844Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/chatgpt-messenger-yt-a58e9 [none]
+[debug] [2023-05-10T20:13:24.078Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/chatgpt-messenger-yt-a58e9 200
+[debug] [2023-05-10T20:13:24.078Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/chatgpt-messenger-yt-a58e9 {"projectId":"chatgpt-messenger-yt-a58e9","projectNumber":"431413176754","displayName":"chatgpt-messenger-yt","name":"projects/chatgpt-messenger-yt-a58e9","resources":{"hostingSite":"chatgpt-messenger-yt-a58e9","storageBucket":"chatgpt-messenger-yt-a58e9.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_d336cd89-8ab8-4fc3-8bf0-474bb00d306e"}
+[debug] [2023-05-10T20:13:28.563Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/chatgpt-messenger-yt-a58e9/sites pageToken=&pageSize=10
+[debug] [2023-05-10T20:13:29.367Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/chatgpt-messenger-yt-a58e9/sites 200
+[debug] [2023-05-10T20:13:29.367Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/chatgpt-messenger-yt-a58e9/sites {"sites":[{"name":"projects/chatgpt-messenger-yt-a58e9/sites/chatgpt-messenger-yt-a58e9","defaultUrl":"https://chatgpt-messenger-yt-a58e9.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2023-05-10T20:13:29.368Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/chatgpt-messenger-yt-a58e9/sites 
+[debug] [2023-05-10T20:13:30.178Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/chatgpt-messenger-yt-a58e9/sites 200
+[debug] [2023-05-10T20:13:30.178Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/chatgpt-messenger-yt-a58e9/sites {"sites":[{"name":"projects/chatgpt-messenger-yt-a58e9/sites/chatgpt-messenger-yt-a58e9","defaultUrl":"https://chatgpt-messenger-yt-a58e9.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2023-05-10T20:13:30.179Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/chatgpt-messenger-yt-a58e9/webApps/-/config [none]
+[debug] [2023-05-10T20:13:30.877Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/chatgpt-messenger-yt-a58e9/webApps/-/config 200
+[debug] [2023-05-10T20:13:30.877Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/chatgpt-messenger-yt-a58e9/webApps/-/config {"projectId":"chatgpt-messenger-yt-a58e9","appId":"1:431413176754:web:0a0d234b6fcf20d77e5cab","storageBucket":"chatgpt-messenger-yt-a58e9.appspot.com","locationId":"us-central","apiKey":"AIzaSyAYndsWKn4kHRTvbQNVQWJnDc8MEUebuFA","authDomain":"chatgpt-messenger-yt-a58e9.firebaseapp.com","messagingSenderId":"431413176754","measurementId":"G-9LPC61YQF5"}
+[debug] [2023-05-10T20:14:26.365Z] Error: Unable to find the next dep, try NPM installing?
+    at getConfig (/usr/local/lib/node_modules/firebase-tools/lib/frameworks/next/index.js:381:19)
+    at build (/usr/local/lib/node_modules/firebase-tools/lib/frameworks/next/index.js:61:56)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async prepareFrameworks (/usr/local/lib/node_modules/firebase-tools/lib/frameworks/index.js:207:122)
+    at async deploy (/usr/local/lib/node_modules/firebase-tools/lib/deploy/index.js:55:13)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-05-10T20:14:41.333Z] ----------------------------------------------------------------------
+[debug] [2023-05-10T20:14:41.336Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2023-05-10T20:14:41.337Z] CLI Version:   12.0.0
+[debug] [2023-05-10T20:14:41.337Z] Platform:      darwin
+[debug] [2023-05-10T20:14:41.338Z] Node Version:  v18.15.0
+[debug] [2023-05-10T20:14:41.339Z] Time:          Wed May 10 2023 21:14:41 GMT+0100 (British Summer Time)
+[debug] [2023-05-10T20:14:41.339Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-05-10T20:14:41.441Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-05-10T20:14:41.441Z] > authorizing via signed-in user (emailwadhwani@gmail.com)
+[debug] [2023-05-10T20:14:41.442Z] [iam] checking project chatgpt-messenger-yt-a58e9 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-05-10T20:14:41.444Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/chatgpt-messenger-yt-a58e9:testIamPermissions [none]
+[debug] [2023-05-10T20:14:41.444Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/chatgpt-messenger-yt-a58e9:testIamPermissions x-goog-quota-user=projects/chatgpt-messenger-yt-a58e9
+[debug] [2023-05-10T20:14:41.445Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/chatgpt-messenger-yt-a58e9:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-05-10T20:14:42.186Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/chatgpt-messenger-yt-a58e9:testIamPermissions 200
+[debug] [2023-05-10T20:14:42.186Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/chatgpt-messenger-yt-a58e9:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-05-10T20:14:42.188Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/chatgpt-messenger-yt-a58e9 [none]
+[debug] [2023-05-10T20:14:42.437Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/chatgpt-messenger-yt-a58e9 200
+[debug] [2023-05-10T20:14:42.437Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/chatgpt-messenger-yt-a58e9 {"projectId":"chatgpt-messenger-yt-a58e9","projectNumber":"431413176754","displayName":"chatgpt-messenger-yt","name":"projects/chatgpt-messenger-yt-a58e9","resources":{"hostingSite":"chatgpt-messenger-yt-a58e9","storageBucket":"chatgpt-messenger-yt-a58e9.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_ae76bf5d-ca5b-4114-978d-854169296d93"}
+[debug] [2023-05-10T20:14:47.336Z] defaultcredentials: writing to file /Users/sailendrawadhwani/.config/firebase/emailwadhwani_gmail_com_application_default_credentials.json
+[debug] [2023-05-10T20:14:47.340Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/chatgpt-messenger-yt-a58e9/sites pageToken=&pageSize=10
+[debug] [2023-05-10T20:14:48.208Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/chatgpt-messenger-yt-a58e9/sites 200
+[debug] [2023-05-10T20:14:48.209Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/chatgpt-messenger-yt-a58e9/sites {"sites":[{"name":"projects/chatgpt-messenger-yt-a58e9/sites/chatgpt-messenger-yt-a58e9","defaultUrl":"https://chatgpt-messenger-yt-a58e9.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2023-05-10T20:14:48.210Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/chatgpt-messenger-yt-a58e9/sites 
+[debug] [2023-05-10T20:14:49.146Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/chatgpt-messenger-yt-a58e9/sites 200
+[debug] [2023-05-10T20:14:49.146Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/chatgpt-messenger-yt-a58e9/sites {"sites":[{"name":"projects/chatgpt-messenger-yt-a58e9/sites/chatgpt-messenger-yt-a58e9","defaultUrl":"https://chatgpt-messenger-yt-a58e9.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2023-05-10T20:14:49.147Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/chatgpt-messenger-yt-a58e9/webApps/-/config [none]
+[debug] [2023-05-10T20:14:49.833Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/chatgpt-messenger-yt-a58e9/webApps/-/config 200
+[debug] [2023-05-10T20:14:49.833Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/chatgpt-messenger-yt-a58e9/webApps/-/config {"projectId":"chatgpt-messenger-yt-a58e9","appId":"1:431413176754:web:0a0d234b6fcf20d77e5cab","storageBucket":"chatgpt-messenger-yt-a58e9.appspot.com","locationId":"us-central","apiKey":"AIzaSyAYndsWKn4kHRTvbQNVQWJnDc8MEUebuFA","authDomain":"chatgpt-messenger-yt-a58e9.firebaseapp.com","messagingSenderId":"431413176754","measurementId":"G-9LPC61YQF5"}
+[debug] [2023-05-10T20:15:44.838Z] Error: Unable to find the next dep, try NPM installing?
+    at getConfig (/usr/local/lib/node_modules/firebase-tools/lib/frameworks/next/index.js:381:19)
+    at build (/usr/local/lib/node_modules/firebase-tools/lib/frameworks/next/index.js:61:56)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async prepareFrameworks (/usr/local/lib/node_modules/firebase-tools/lib/frameworks/index.js:207:122)
+    at async deploy (/usr/local/lib/node_modules/firebase-tools/lib/deploy/index.js:55:13)
+[error] 
+[error] Error: An unexpected error has occurred.

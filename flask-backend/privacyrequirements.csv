@@ -1,0 +1,49 @@
+id,product,privacy_requirement
+PR-1,"Health Tracking, Medical Tracking, Temperature Monitoring","Health and medical data, including body temperature, should only be accessed and processed with clear user consent and for the purpose of providing health insights or assisting in proactive healthcare management."
+PR-2,"Camera and Microphone, Speaker and Audio Recording","Photos, videos, and voice data should only be captured with explicit user consent and should not be shared or used for any other purpose than stated. This includes audio recordings used for voice commands and memos."
+PR-3,Location Tracking,"User location data should only be used for providing navigation and safety services or enhanced AR experiences, and it should not be stored or used for any other purpose unless with explicit user consent."
+PR-4,Data Collection,"User-specific or device-specific data should be collected only with user consent, used solely for personalized insights, recommendations, or specific functionalities, and not shared or used for any other purpose."
+PR-5,Minimal Personal Information,"Only minimal personal information necessary for registration, account management, or customization should be collected. This information must not be shared or used for any other purpose without user consent."
+PR-6,"Secure Data Storage, Local Storage, Cloud Backups",User data stored locally on the device or on encrypted cloud storage should be secure and protected from unauthorized access at all times.
+PR-7,"Consent-based Data Sharing, Third-Party Access","User data should not be shared with any third party unless explicitly authorized by the user, ensuring user control over data sharing."
+PR-8,AR and Hologram Projection,"AR and hologram data should be processed and utilized solely for enhancing user interactions and visualizations, and should not be shared or used for any other purpose without explicit user consent."
+PR-9,Secure Connections,"When transferring data to external devices or platforms or between the app and a tracker device, secure connections should be used to protect data from unauthorized access and potential breaches."
+PR-10,Anonymization,"Any data shared for analytics, product improvement, or other purposes should be anonymized, with all personally identifiable information removed to protect user privacy."
+PR-11,Opt-In Features,"Additional features that require data sharing or external access should be strictly opt-in, giving users control over their data and the choice of sharing it."
+PR-12,Data Retention,"User data should be retained for a necessary period for functionality, analysis, or service improvement, after which it should be securely deleted to protect user privacy."
+PR-13,Transparent Privacy Policy,"A clear and understandable privacy policy must be provided, outlining data collection, storage, and usage practices, and options for user control over their data."
+PR-14,Social Media Integration,User data shared with integrated social media platforms should be minimized and done only with explicit user consent.
+PR-15,"Facial Recognition, Biometric Authentication","Biometric data (like facial data or fingerprints) should only be used for authorized purposes (like device unlocking or authentication), and should not be shared or used for any other purpose without explicit user consent."
+PR-16,"Email Notifications, Push Notifications",Users should have the ability to easily opt out of email or push notifications to protect their privacy and control over communication preferences.
+PR-17,"Payment Information, In-App Purchases",Payment data or personal data collected during in-app purchases should only be used for transaction purposes and should be securely stored and protected from unauthorized access.
+PR-18,Ad Targeting,"Users should be able to opt out of ad targeting that uses personal data. If used, it should be anonymized and not linked to individual users without their consent."
+PR-19,"User Preferences, Browsing History",User preference data or browsing history should only be used to customize the user experience and should not be shared or used for any other purpose without explicit user consent.
+PR-20,Device Synchronization,Data sharing between devices should only be done with user consent and securely to protect data during transmission.
+PR-21,Chat Functionality,Messages sent through chat functionality should be encrypted and only accessible to the intended recipient(s).
+PR-22,Wearable Sync,Data collected from synced wearable devices should only be used for specified purposes and not be shared or used for any other purpose without user consent.
+PR-23,Calendar Integration,"Access to the user's calendar data should only be granted with explicit user consent and used only for the intended purpose, such as scheduling."
+PR-24,Contact List Access,"The app should only access contact lists with user consent, and use that data only for the specified purpose, such as sharing content or invitations."
+PR-25,Profile Customization,User data used for profile customization should not be shared or used for any other purpose without explicit user consent.
+PR-26,User Reviews & Ratings,Reviews and ratings should be anonymized unless the user explicitly chooses to associate their identity with the review.
+PR-27,Product Usage Analytics,Product usage data should be anonymized and only used for improving the product and not shared without user consent.
+PR-28,Saved Files and Documents,"Saved files and documents should only be accessed with user consent, securely stored, and not shared or used for any other purpose without explicit user consent."
+PR-29,Online Purchases,Online transaction data should only be used for completing the transaction and must be securely stored and protected from unauthorized access.
+PR-30,Physical Activity Tracking,"User physical activity data should only be used to provide fitness insights and recommendations, and not shared or used for any other purpose without explicit user consent."
+PR-31,Sleep Tracking,"Sleep data should only be used to provide sleep quality insights and recommendations, and not shared or used for any other purpose without explicit user consent."
+PR-32,Dietary Information,Dietary information provided by the user should be used for tailored recommendations and should not be shared without explicit consent.
+PR-33,Personalized Advertisements,"Any data used for personalized advertisements must be anonymized, and users should have the option to opt-out from personalized advertisements."
+PR-34,Automated Customer Service,Conversations with automated customer service should be stored securely and used only for improving service quality and not for other purposes without explicit consent.
+PR-35,Social Network Sharing,Data shared with social networks should be minimized and should only be shared with explicit user consent.
+PR-36,Survey Participation,"Responses to surveys should be anonymized and used only for improving the product and service, not for other purposes without user consent."
+PR-37,Access to Device Sensors,"Access to device sensors (e.g., accelerometer, gyroscope) should be limited to necessary functionalities and only with explicit user consent."
+PR-38,Multi-Factor Authentication,Multi-factor authentication data should only be used for securing user accounts and should not be shared or used for any other purpose.
+PR-39,User Reported Issues/Feedback,"User-reported issues or feedback should be anonymized and only used for improving the product, not for other purposes without user consent."
+PR-40,User Content Uploads,"User uploaded content should be accessed and used only with user consent and for the specified purpose, and not shared or used for any other purpose."
+PR-41,Game Play Data,"Game play data should be anonymized and only used for improving gaming experience, and not shared without user consent."
+PR-42,Automated Content Suggestions,User data used for automated content suggestions should be anonymized and not linked to individual users without their consent.
+PR-43,Download History,User's download history should be used only for enhancing user experience and recommendations and not shared without explicit user consent.
+PR-44,User Playlist Creation,Data from user created playlists should be used only for enhancing user experience and recommendations and not shared without explicit user consent.
+PR-45,Real-Time Communication,"Real-time communication (voice, video, chat) should be encrypted, and not recorded or stored without user consent."
+PR-46,Social Media Linking,"Linking to social media accounts should only be done with user consent, and any data shared with or gathered from social media platforms should be minimized."
+PR-47,Personalized Notifications,"Personalized notifications should be based on anonymized user data, and users should have the ability to easily opt-out."
+PR-48,Voice Commands,"Voice command data should only be used for performing the requested actions and improving voice recognition capabilities, and not shared without user consent."
